@@ -1,1 +1,1 @@
-# Convertidor_Monedas_Temperatura
+# Convertidor de monedas y temperatura
