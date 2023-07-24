@@ -1,45 +1,82 @@
-Documentación de la Aplicación de Conversión
-Descripción
-La aplicación de conversión es una herramienta sencilla desarrollada en Java que permite convertir tanto divisas como temperaturas. La interfaz gráfica de usuario facilita su uso, permitiendo a los usuarios realizar conversiones rápidas y precisas.
 
-Conversión de Divisas
-En la sección de conversión de divisas, el usuario cuenta con los siguientes elementos:
-
-Selección de Monedas
-El usuario debe escoger la moneda de origen y la moneda de destino utilizando los desplegables "Combo Box". Están disponibles diversas opciones de monedas para facilitar conversiones internacionales.
-
-Ingreso de Cantidad
-Una vez seleccionadas las monedas, el usuario debe ingresar la cantidad a convertir en el campo proporcionado.
-
-Conversión
-Al hacer clic en el botón de "Convertir", el sistema realizará la conversión y mostrará el resultado en formato de texto.
-
-Conversión de Temperatura
-En la sección de conversión de temperatura, el usuario puede efectuar las siguientes conversiones:
-
-Selección de Unidades
-El usuario tiene la posibilidad de elegir entre convertir grados Celsius a Fahrenheit o viceversa utilizando los "Combo Box".
-
-Ingreso de Cantidad de Grados
-Una vez seleccionada la unidad de conversión, el usuario debe ingresar la cantidad de grados a convertir en el campo correspondiente.
-
-Conversión de Temperatura
-Al presionar el botón de "Convertir", la aplicación realizará la conversión de forma precisa y mostrará el resultado obtenido.
-
-Instrucciones de Uso
-Inicie la aplicación de conversión.
-
-En la sección de divisas, seleccione la moneda de origen y la moneda de destino utilizando los desplegables.
-
-Ingrese la cantidad de dinero a convertir.
-
-Haga clic en el botón "Convertir" para obtener el resultado de la conversión de divisas.
-
-En la sección de temperaturas, seleccione la unidad de conversión deseada (Celsius o Fahrenheit) mediante los "Combo Box".
-
-Ingrese la cantidad de grados a convertir.
-
-Haga clic en el botón "Convertir" para obtener el resultado de la conversión de temperatura.
+    <title>Documentación de la Aplicación de Convertidor de Divisas y Temperatura</title>
 
 
-![image](https://github.com/AdriGPlayer/Convertidor_Monedas_Temperatura/assets/130609122/40788f52-bac2-4d25-a675-5638804e8a79)
+    <h1>Documentación de la Aplicación de Convertidor de Divisas y Temperatura</h1>
+
+    <h2>Descripción</h2>
+    <p>
+        Esta aplicación de convertidor de divisas y temperatura ha sido desarrollada en Java, utilizando una interfaz
+        gráfica de usuario para proporcionar una experiencia amigable al usuario. Permite a los usuarios convertir
+        diferentes monedas y temperaturas de manera sencilla y rápida.
+    </p>
+
+    <h2>Características Principales</h2>
+
+    <h3>Conversor de Divisas</h3>
+    <ul>
+        <li><strong>Selección de Monedas:</strong> El usuario puede elegir la moneda de origen y la moneda de destino a
+            través de combobox (lista desplegable).</li>
+        <li><strong>Ingreso de Cantidad:</strong> Los usuarios pueden ingresar la cantidad de dinero que desean
+            convertir.</li>
+        <li><strong>Conversión en Tiempo Real:</strong> Al presionar el botón "Convertir", la aplicación calculará
+            automáticamente la conversión y mostrará el resultado en un campo de texto.</li>
+    </ul>
+
+    <h3>Conversor de Temperatura</h3>
+    <ul>
+        <li><strong>Selección de Escalas:</strong> Los usuarios pueden seleccionar la escala de temperatura de origen y
+            de destino utilizando combobox (lista desplegable).</li>
+        <li><strong>Ingreso de Cantidad:</strong> El usuario puede ingresar la cantidad de grados que desea convertir.
+        </li>
+        <li><strong>Resultados Instantáneos:</strong> Al realizar la conversión con el botón "Convertir", la aplicación
+            calculará automáticamente la equivalencia en tiempo real y mostrará el resultado en pantalla.</li>
+    </ul>
+
+    <h2>Instrucciones de Uso</h2>
+
+    <ol>
+        <li>
+            <h3>Conversor de Divisas:</h3>
+            <ol type="a">
+                <li>Selecciona la moneda de origen en el primer combobox.</li>
+                <li>Selecciona la moneda de destino en el segundo combobox.</li>
+                <li>Ingresa la cantidad de dinero a convertir.</li>
+                <li>Presiona el botón "Convertir" para ver el resultado de la conversión.</li>
+            </ol>
+        </li>
+        <li>
+            <h3>Conversor de Temperatura:</h3>
+            <ol type="a">
+                <li>Elige la escala de temperatura de origen en el primer combobox.</li>
+                <li>Elige la escala de temperatura de destino en el segundo combobox.</li>
+                <li>Ingresa la cantidad de grados a convertir.</li>
+                <li>Haz clic en el botón "Convertir" para ver el resultado de la conversión.</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h2>Ejemplo</h2>
+    <p>Conversión de Divisas:</p>
+    <ul>
+        <li>Moneda de origen: USD (Dólar estadounidense)</li>
+        <li>Moneda de destino: EUR (Euro)</li>
+        <li>Cantidad a convertir: 100</li>
+        <li>Resultado: 100 USD equivalen a 85.34 EUR.</li>
+    </ul>
+
+    <p>Conversión de Temperatura:</p>
+    <ul>
+        <li>Escala de origen: Celsius</li>
+        <li>Escala de destino: Fahrenheit</li>
+        <li>Cantidad a convertir: 25</li>
+        <li>Resultado: 25°C equivale a 77°F.</li>
+    </ul>
+
+    <h2>Notas</h2>
+    <ul>
+        <li>Esta aplicación utiliza tasas de cambio actualizadas para la conversión de divisas.</li>
+        <li>Las conversiones de temperatura siguen la fórmula precisa para garantizar resultados precisos.</li>
+    </ul>
+
+
