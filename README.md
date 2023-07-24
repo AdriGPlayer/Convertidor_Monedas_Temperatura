@@ -50,10 +50,5 @@ Conversión de Temperatura:
 - Cantidad a convertir: 25
 - Resultado: 25°C equivale a 77°F.
 
-## Notas
-
-- Esta aplicación utiliza tasas de cambio actualizadas para la conversión de divisas.
-- Las conversiones de temperatura siguen la fórmula precisa para garantizar resultados precisos.
-
 
 ![image](https://github.com/AdriGPlayer/Convertidor_Monedas_Temperatura/assets/130609122/166067eb-8532-4eda-940a-d94f8e5ac403)
